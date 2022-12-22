@@ -26,3 +26,13 @@
         </ul>
     </div>
 </div>
+
+<div class="footer">
+  <div class="content">
+    <div>
+      <h5>DC COMICS</h5>
+    </div>
+
+  </div>
+
+</div>
