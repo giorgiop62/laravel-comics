@@ -1,10 +1,8 @@
 @extends('layouts.main')
 
-@extends('layouts.main')
-
 @section('content')
-    <main class="container">
+    <h1>
       collectibles
-    </main>
+    </h1>
 @endsection
 

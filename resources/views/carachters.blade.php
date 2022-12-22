@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <main>
+    <h1>
       carachters
-    </main>
+    </h1>
 @endsection
