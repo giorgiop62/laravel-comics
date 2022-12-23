@@ -7,12 +7,15 @@
         <div class="container">
 
             <div class="card">
-                <img src="{{$comics['']}}" alt="{{$comics['titolo']}}">
-                <h1>{{$comics['titolo']}}</h1>
-            </div>
+
+              @foreach ($comics as $comic )
 
 
-        </div>
+              <img src="{{$comic['thumb']}}" alt="">
+              <h4>{{$comic['title']}}</h4>
+
+              @endforeach
+
     </main>
 @endsection
 

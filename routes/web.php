@@ -22,9 +22,9 @@ Route::get('/collectibles', function () {
 })->name('collectibles');
 
 Route::get('/comics', function () {
-    $comics = config('db.comics');
+    $comics = config('db');
 
-    return view('comics');
+    return view('comics',compact('comics'));
 })->name('comics');
 
 Route::get('/fans', function () {
@@ -53,3 +53,7 @@ Route::get('/tv', function () {
 Route::get('/video', function () {
     return view('video');
 })->name('video');
+
+
+
+
