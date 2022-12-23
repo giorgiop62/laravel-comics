@@ -1,7 +1,21 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>
-      comics
-    </h1>
+
+
+    <main>
+        <div class="container">
+
+            <div class="card">
+                <img src="{{$comics['']}}" alt="{{$comics['titolo']}}">
+                <h1>{{$comics['titolo']}}</h1>
+            </div>
+
+
+        </div>
+    </main>
+@endsection
+
+@section('title')
+    Comics
 @endsection

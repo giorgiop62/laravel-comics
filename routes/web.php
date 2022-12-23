@@ -22,6 +22,8 @@ Route::get('/collectibles', function () {
 })->name('collectibles');
 
 Route::get('/comics', function () {
+    $comics = config('db.comics');
+
     return view('comics');
 })->name('comics');
 
